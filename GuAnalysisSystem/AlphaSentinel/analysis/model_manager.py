@@ -96,7 +96,7 @@ class ModelManager:
                 name="硅基流动默认模型",
                 provider="siliconflow",
                 model_name="deepseek-ai/DeepSeek-V3.2",
-                api_key="sk-poshxhwkdetphtmmeilfegtrpsnbotwhiomjpxipjrfuqcrv",
+                api_key="",
                 base_url="https://api.siliconflow.cn/v1",
                 description="硅基流动提供的DeepSeek V3.2模型",
                 is_active=True
