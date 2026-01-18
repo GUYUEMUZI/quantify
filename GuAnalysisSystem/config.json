@@ -5,6 +5,7 @@
   "notification_email": "",
   "smtp_server": "smtp.163.com",
   "smtp_port": 465,
-  "email_user": "guyueqihuotixing@163.com",
-  "email_password": "LBH30-hui"
+  "email_user": "",
+  "email_password": ""
+
 }
