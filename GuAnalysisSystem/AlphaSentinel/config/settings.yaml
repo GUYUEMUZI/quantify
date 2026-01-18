@@ -1,0 +1,35 @@
+# API Keys
+api_keys:
+  gemini: "AIzaSyBszpyWUnNcxcROk-8x1woQqDoURMGxru4"
+  akshare: ""
+
+# Email Configuration
+email:
+  smtp_server: "smtp.example.com"
+  smtp_port: 587
+  username: "your_email@example.com"
+  password: "your_password"
+  recipient: "recipient@example.com"
+
+# Data Loading Settings
+data_loader:
+  rate_limit: 2  # requests per second
+  cache_enabled: true
+  cache_expiry_hours: 12
+
+# Filter Parameters
+filter:
+  min_volume: 10000  # minimum volume threshold
+  min_atr: 0.5       # minimum ATR threshold
+  max_symbols: 30    # maximum number of symbols to keep after filtering
+
+# Scheduler Settings
+scheduler:
+  news_crawl_time: "08:30"
+  market_scan_time: "08:40"
+  intraday_check_interval: 15  # minutes
+
+# Risk Management
+risk:
+  max_risk_per_trade: 0.02  # 2% of total capital per trade
+  atr_multiplier: 2.0       # stop loss multiplier based on ATR
